@@ -3,7 +3,7 @@
 declare(strict_types=1);
 require_once __DIR__ . '/../libs/TuyaModule.php';
 
-class TuyaSwitch extends TuyaModule
+class TuyaTemp extends TuyaModule
 {
     public static $Variables = [
         ['Tuya_Temperature', 'Temperature', VARIABLETYPE_FLOAT, '~Temperature', [], '', false, true], 
