@@ -1,7 +1,7 @@
 {
     "id": "{aa08f81e-0214-45c6-b372-46dd9cb098f3}",
     "author": "Volker Hänsel",
-    "name": "IPS-TuyaMQTT",
+    "name": "IPS_TuyaMQTT",
     "url": "https://github.com/volker76/IPS_TuyaSwitch",
     "compatibility": {
         "version": "6.0"
