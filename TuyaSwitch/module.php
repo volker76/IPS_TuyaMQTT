@@ -30,7 +30,7 @@ class TuyaSwitch extends TuyaModule
             }
 
             if (property_exists($Buffer, 'Topic')) {
-                if (fnmatch('*/DP0', $Buffer->Topic)) {
+                if (fnmatch('*/DP1', $Buffer->Topic)) {
                     switch ($Buffer->Payload) {
                         case 'False':
                             SetValue($this->GetIDForIdent('Tuya_State'), 0);
