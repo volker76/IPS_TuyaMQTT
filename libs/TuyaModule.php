@@ -1,7 +1,7 @@
 declare(strict_types=1);
 
-require_once __DIR__ . '/vendor/SymconModulHelper/VariableProfileHelper.php';
-require_once __DIR__ . '/vendor/SymconModulHelper/DebugHelper.php';
+require_once __DIR__ . '/SymconModulHelper/VariableProfileHelper.php';
+require_once __DIR__ . '/SymconModulHelper/DebugHelper.php';
 require_once __DIR__ . '/MQTTHelper.php';
 
 class TuyaModule extends IPSModule
