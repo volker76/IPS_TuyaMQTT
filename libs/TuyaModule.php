@@ -4,7 +4,7 @@ require_once __DIR__ . '/vendor/SymconModulHelper/VariableProfileHelper.php';
 require_once __DIR__ . '/vendor/SymconModulHelper/DebugHelper.php';
 require_once __DIR__ . '/MQTTHelper.php';
 
-class ShellyModule extends IPSModule
+class TuyaModule extends IPSModule
 {
     use DebugHelper;
     use VariableProfileHelper;
