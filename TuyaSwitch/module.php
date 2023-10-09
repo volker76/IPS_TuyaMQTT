@@ -3,7 +3,7 @@
 declare(strict_types=1);
 require_once __DIR__ . '/../libs/TuyaModule.php';
 
-class ShellyPlug extends TuyaModule
+class TuyaSwitch extends TuyaModule
 {
     public static $Variables = [
         ['Tuya_State', 'State', VARIABLETYPE_BOOLEAN, '~Switch', [], '', true, true] 
